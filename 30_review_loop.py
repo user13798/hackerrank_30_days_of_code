@@ -1,15 +1,10 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-s="""1
-Hacker
-Rank"""
-# s = str(input().strip())
-
-lines = s.splitlines()
-T=int(lines[0])
 result_str = ""
 
-for line in lines[1:T+1]:
+T = int(input())
+for j in range(T):
+    line = str(input())
     evens = ""
     odds = ""
     result_line = ""
